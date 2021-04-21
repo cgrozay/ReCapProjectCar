@@ -11,7 +11,7 @@ namespace ConsolUI
             CarManager carManager = new CarManager(new InMemoryCarDal());
             foreach (var car in carManager.GetAll())
             {
-                Console.WriteLine(car.BrandId+" "+car.CarId);
+                Console.WriteLine(car.BrandId+" "+car.CarId+" "+car.Description);
 
 
             }
